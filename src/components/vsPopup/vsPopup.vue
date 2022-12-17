@@ -122,8 +122,8 @@ export default {
   },
   beforeDestroy() {
     // close the left open prompt
-    let elx = this.$refs.con
-    if (document.body) {
+    let elx = this.$refs.con      
+    if (document.body && elx) {      
       document.body.removeChild(elx)
     }
   },
