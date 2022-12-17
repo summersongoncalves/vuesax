@@ -59,8 +59,12 @@
     "vue": "^2.6.9"
   },
   "devDependencies": {   
-    "copy-webpack-plugin": "^4.5.2",
-    "eslint": "^4.0.0",
+    "@babel/core": "^7.7.7",
+    "@vue/cli-plugin-babel": "^4.5.19",
+    "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-service": "^3.12.1",    
+    "eslint": "3.18.0",
+    "copy-webpack-plugin": "^4.5.2",    
     "eslint-plugin-vue": "^4.7.1",
     "file-loader": "^1.1.11",
     "prefixfree": "^1.0.0",
@@ -70,11 +74,10 @@
     "vuepress": "^0.14.10",            
     "@vue/cli": "^5.0.7",
     "chalk": "^4.1.2",
-    "core-js": "^3.23.3",
-    "terser-webpack-plugin": "^5.3.3",
+    "core-js": "^3.23.3",    
     "vue-loader": "^15.10.0",
     "vue-template-compiler": "^2.7.3",
-    "webpack": "^5.73.0"
+    "webpack": "^4.19.0"
   },
   "babel": {
     "presets": [
