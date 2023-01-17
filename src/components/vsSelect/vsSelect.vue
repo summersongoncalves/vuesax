@@ -432,7 +432,7 @@ export default {
             const el = this.$children[0].$el.querySelector(".vs-select--item");
             if (el) el.focus();
           }, 50);
-        }
+        } 
       }
       this.$nextTick(() => {
         this.cords = this.changePosition();
@@ -441,9 +441,8 @@ export default {
     clickBlur(event) {
       if (event.target === this.$refs.inputselect) {
         return
-      }
-      let closestx = event.target.closest(".vs-select--option");
-
+      }      
+      let closestx = event.target.closest(".vs-select--options");
       if (!closestx) {
         this.closeOptions();
         if (this.autocomplete) {
