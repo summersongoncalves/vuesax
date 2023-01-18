@@ -1,6 +1,7 @@
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
+  parallel: false,
   productionSourceMap: false,
   configureWebpack: {
     entry: {
