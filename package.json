@@ -1,6 +1,6 @@
 {
   "name": "vuesax-fixed",
-  "version": "3.13.0",
+  "version": "3.13.1",
   "description": "Framework Components for Vue js",
   "license": "MIT",
   "author": "ldrovira <luisdanielrovira8@gmail.com>",
@@ -51,7 +51,7 @@
     "docs:deploy": "sh scripts/deploy.sh",
     "deployx": "npm run docs:deploy && npm run deploy",
     "deployx2": "npm run docs:deploy && npm run deploy2",
-    "new:component": "sh scripts/newComponent.sh"    
+    "new:component": "sh scripts/newComponent.sh"
   },
   "dependencies": {
     "chalk": "^2.4.2",
